@@ -1,0 +1,32 @@
+{
+	"name": "feathers-cf-durable",
+	"version": "0.0.1",
+	"description": "A feathers service adapter for Cloudflare Durable Objects",
+	"main": "lib/",
+	"keywords": [
+		"feathers",
+		"feathers-plugin",
+		"cloudflare",
+		"durable-objects"
+	],
+	"scripts": {
+		"publish": "git push origin --tags",
+		"release:patch": "npm version patch && npm publish",
+		"release:minor": "npm version minor && npm publish",
+		"release:major": "npm version major && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Spioune/feathers-cf-durable.git"
+	},
+	"author": "Spioune",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Spioune/feathers-cf-durable/issues"
+	},
+	"homepage": "https://github.com/Spioune/feathers-cf-durable#readme",
+	"dependencies": {
+		"@cfworker/uuid": "^1.9.1",
+		"@feathersjs/adapter-commons": "^4.5.11"
+	}
+}
