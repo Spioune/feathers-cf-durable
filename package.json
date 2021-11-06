@@ -27,6 +27,7 @@
 	"homepage": "https://github.com/Spioune/feathers-cf-durable#readme",
 	"dependencies": {
 		"@cfworker/uuid": "^1.9.1",
-		"@feathersjs/adapter-commons": "^4.5.11"
+		"@feathersjs/adapter-commons": "^4.5.11",
+		"itty-router": "^2.4.4"
 	}
 }
