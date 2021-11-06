@@ -1,6 +1,6 @@
 {
 	"name": "feathers-cf-durable",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A feathers service adapter for Cloudflare Durable Objects",
 	"main": "lib/",
 	"keywords": [
